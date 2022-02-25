@@ -1,0 +1,204 @@
+/**************************** NAVBAR /****************************/
+
+.navbar {
+  background-color: #422213de;
+  /* background-color: #422213b9; */
+  /* background-color: #422213; */
+  height: 66px;
+}
+
+.nav-link {
+  color: white;
+}
+
+.logo {
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.contenido__navbar {
+  margin: 5px;
+  margin-left: 1%;
+  margin-right: 1.5%;
+}
+
+.lista__navbar {
+  margin-left: 4%;
+}
+
+.gondo__principal nav ul li {
+  margin-left: 15px;
+  font-weight: 610;
+}
+
+.lista__redes li a i {
+  /* font-size: 25px; */
+  color: white;
+}
+
+.lista__redes {
+  margin-left: 20%;
+}
+
+.btnCatalogo__navbar {
+  background-color: white;
+  color: #422213;
+  font-weight: 500;
+  transition: all 0.7s;
+}
+
+.btnCatalogo__navbar:hover {
+  background-color: #bd9d90;
+  border: none;
+}
+
+.fondo__principal {
+  /* display: grid; */
+  /* grid-template-areas: "main"; */
+  width: 100%;
+  height: calc(100vh - 66px);
+  /* position: absolute;
+  z-index: 1; */
+  /* background-image: url("../img/fondo3.jpg"); */
+  background: url("../img/fondo3.jpg");
+  background-size: cover;
+  height: 100vh;
+  /* background-attachment: fixed; */
+  /* object-fit: cover; */
+}
+
+.titulo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: rgb(255, 255, 255);
+  border-radius: 500px;
+  color: black;
+  width: 45%;
+  height: 480px;
+}
+
+.titulo h1 {
+  font-size: 80px;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #422213;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 40px;
+  color: white;
+}
+
+/**************************** TAMAÑOS_PRECIOS /****************************/
+
+.wrap__tp {
+  margin: 4%;
+}
+
+.tamaños {
+  border: 1px solid #422213;
+  border-radius: 60px;
+  width: 120px;
+  height: 120px;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.tamaños p {
+  margin-top: 14px;
+  font-weight: bold;
+  font-size: 18px;
+  color: #422213;
+}
+
+.detalles h5 {
+  font-size: 1px;
+}
+.tp__tamaño {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+
+.tp_descripcion {
+  margin-left: 9%;
+}
+
+.wrap__Tinys {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.mainTyC {
+  background-color: #bd9d90;
+}
+
+.body__TC {
+  background-color: #c488709a;
+}
+
+.body__TP {
+  background-color: #f2e1af;
+}
+
+.wrap__contenidoTiny {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.wrap__contenidoTC {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 25px;
+  line-height: 50px;
+}
+
+.wrap__contenidoTC h1 {
+  font-size: 70px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-weight: bold;
+}
+
+.wrap__contenidoTC li {
+  font-size: 20px;
+}
+
+.wrap__contenidoTerminos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 25px;
+  line-height: 40px;
+}
+
+.wrap__contenido--metodos {
+  line-height: 25px;
+}
+
+.wrap__img {
+  width: 100%;
+}
+
+.wrap__img img {
+  width: 100%;
+}
+
+.wrap__img--plin {
+  width: 80%;
+}
+
+.wrap__img--plin img {
+  width: 80%;
+}
